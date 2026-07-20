@@ -9,7 +9,7 @@ export default function Home() {
             Arda Emirhan Kinc
           </h1>
           <p className="text-xl md:text-2xl text-neutral-400 font-light">
-            Outbound Sales Development &amp; Go-To-Market Operations
+            Sales Development Representative &amp; Go-To-Market Operations
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-4 pt-4">
@@ -92,7 +92,7 @@ export default function Home() {
               <img src="/salesforce.png" alt="Salesforce" className="w-full h-full object-cover opacity-80" />
             </div>
             <div>
-              <a href="YOUR_SALESFORCE_LINK_HERE" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
+              <a href="https://www.salesforce.com/trailblazer/n5ft2fa7lkrc4rondn" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
                 Learn CRM Fundamentals for Lightning Experience
                 <span className="text-neutral-500 text-sm">↗</span>
               </a>
@@ -106,7 +106,7 @@ export default function Home() {
               <img src="/hubspot.png" alt="HubSpot" className="w-full h-full object-cover opacity-80" />
             </div>
             <div>
-              <a href="YOUR_HUBSPOT_SALES_LINK_HERE" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
+              <a href="https://app-eu1.hubspot.com/academy/achievements/c6k0xx0p/en/1/arda-emirhan-kinc/hubspot-sales-hub-software" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
                 Sales Hub Software Certification
                 <span className="text-neutral-500 text-sm">↗</span>
               </a>
@@ -120,7 +120,7 @@ export default function Home() {
               <img src="/hubspot.png" alt="HubSpot" className="w-full h-full object-cover opacity-80" />
             </div>
             <div>
-              <a href="YOUR_HUBSPOT_INBOUND_LINK_HERE" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
+              <a href="https://app-eu1.hubspot.com/academy/achievements/vfwbx1w3/en/1/arda-emirhan-kinc/inbound-sales" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
                 Inbound Sales Certification
                 <span className="text-neutral-500 text-sm">↗</span>
               </a>
