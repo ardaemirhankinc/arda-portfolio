@@ -2,18 +2,36 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center px-6 py-24">
       
-      {/* Hero Section */}
-      <div className="max-w-3xl w-full text-left space-y-6 mb-24">
-        <h1 className="text-5xl md:text-7xl font-serif tracking-tight">
-          Arda Emirhan Kinc
-        </h1>
-        <p className="text-xl md:text-2xl text-neutral-400 font-light">
-          Outbound Sales Development &amp; Go-To-Market Operations
-        </p>
+      {/* Hero Section (No Picture) */}
+      <div className="max-w-4xl w-full flex flex-col items-start justify-center gap-6 mb-24">
+        <div className="space-y-6 text-left">
+          <h1 className="text-5xl md:text-7xl font-serif tracking-tight">
+            Arda Emirhan Kinc
+          </h1>
+          <p className="text-xl md:text-2xl text-neutral-400 font-light">
+            Outbound Sales Development &amp; Go-To-Market Operations
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center gap-4 pt-4">
+            <a 
+              href="/resume.pdf" 
+              download="Arda_Kinc_Resume.pdf"
+              className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-neutral-200 transition-colors w-full sm:w-auto text-center"
+            >
+              Download CV
+            </a>
+            <a 
+              href="#demos"
+              className="px-6 py-3 bg-neutral-900 text-white font-medium rounded-full border border-neutral-700 hover:border-neutral-500 transition-colors w-full sm:w-auto text-center"
+            >
+              Watch Cold Call Demos
+            </a>
+          </div>
+        </div>
       </div>
 
       {/* Experience Section */}
-      <div className="max-w-3xl w-full text-left space-y-12 mb-24">
+      <div className="max-w-4xl w-full text-left space-y-12 mb-24">
         <h2 className="text-2xl font-serif border-b border-neutral-800 pb-4 text-neutral-200">
           Experience
         </h2>
@@ -60,35 +78,81 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Education & Certifications Section */}
-      <div className="max-w-3xl w-full text-left space-y-12">
+      {/* Certifications & Education Section */}
+      <div className="max-w-4xl w-full text-left space-y-12 mb-24">
         <h2 className="text-2xl font-serif border-b border-neutral-800 pb-4 text-neutral-200">
-          Education &amp; Certifications
+          Certifications &amp; Education
         </h2>
         
-        <div className="space-y-12">
-          {/* Sales Certification */}
-          <div className="group">
-            <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
-              Inbound Sales Certification
-            </h3>
-            <p className="text-neutral-400 font-light leading-relaxed mt-2">
-              Specialized in inbound sales methodologies, pipeline generation, and B2B business development frameworks.
-            </p>
+        <div className="space-y-8">
+          
+          {/* Salesforce Badge */}
+          <div className="group flex items-start gap-4">
+            <div className="w-12 h-12 bg-neutral-900 border border-neutral-800 rounded flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/salesforce.png" alt="Salesforce" className="w-full h-full object-cover opacity-80" />
+            </div>
+            <div>
+              <a href="YOUR_SALESFORCE_LINK_HERE" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
+                Learn CRM Fundamentals for Lightning Experience
+                <span className="text-neutral-500 text-sm">↗</span>
+              </a>
+              <p className="text-sm text-neutral-500 font-mono tracking-wide mt-1">Salesforce Trailhead</p>
+            </div>
+          </div>
+
+          {/* HubSpot Sales Hub */}
+          <div className="group flex items-start gap-4">
+            <div className="w-12 h-12 bg-neutral-900 border border-neutral-800 rounded flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/hubspot.png" alt="HubSpot" className="w-full h-full object-cover opacity-80" />
+            </div>
+            <div>
+              <a href="YOUR_HUBSPOT_SALES_LINK_HERE" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
+                Sales Hub Software Certification
+                <span className="text-neutral-500 text-sm">↗</span>
+              </a>
+              <p className="text-sm text-neutral-500 font-mono tracking-wide mt-1">HubSpot Academy</p>
+            </div>
+          </div>
+
+          {/* HubSpot Inbound */}
+          <div className="group flex items-start gap-4">
+            <div className="w-12 h-12 bg-neutral-900 border border-neutral-800 rounded flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/hubspot.png" alt="HubSpot" className="w-full h-full object-cover opacity-80" />
+            </div>
+            <div>
+              <a href="YOUR_HUBSPOT_INBOUND_LINK_HERE" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
+                Inbound Sales Certification
+                <span className="text-neutral-500 text-sm">↗</span>
+              </a>
+              <p className="text-sm text-neutral-500 font-mono tracking-wide mt-1">HubSpot Academy</p>
+            </div>
           </div>
 
           {/* University Degree */}
-          <div className="group">
-            <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
-              Bachelor of Arts, English Language and Literature
-            </h3>
-            <p className="text-sm text-neutral-500 mb-3 font-mono tracking-wide">
-              Kocaeli University
-            </p>
-            <p className="text-neutral-400 font-light leading-relaxed">
-              Completed an integrated Pedagogical Formation Certification focusing on advanced instructional design and active group communication protocols.
-            </p>
+          <div className="group flex items-start gap-4 pt-6 border-t border-neutral-900 mt-6">
+            <div>
+              <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
+                Bachelor of Arts, English Language and Literature
+              </h3>
+              <p className="text-sm text-neutral-500 mb-2 font-mono tracking-wide mt-1">
+                Kocaeli University
+              </p>
+              <p className="text-neutral-400 font-light leading-relaxed">
+                Completed an integrated Pedagogical Formation Certification focusing on advanced instructional design and active group communication protocols.
+              </p>
+            </div>
           </div>
+
+        </div>
+      </div>
+
+      {/* Demo Video Section (Placeholder) */}
+      <div id="demos" className="max-w-4xl w-full text-left space-y-12 mb-24">
+        <h2 className="text-2xl font-serif border-b border-neutral-800 pb-4 text-neutral-200">
+          Sales Execution &amp; Demos
+        </h2>
+        <div className="w-full h-64 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center">
+          <p className="text-neutral-500 font-mono text-sm">Video Player Component Loading...</p>
         </div>
       </div>
 
