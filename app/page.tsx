@@ -13,7 +13,7 @@ export default function Home() {
       </div>
 
       {/* Experience Section */}
-      <div className="max-w-3xl w-full text-left space-y-12">
+      <div className="max-w-3xl w-full text-left space-y-12 mb-24">
         <h2 className="text-2xl font-serif border-b border-neutral-800 pb-4 text-neutral-200">
           Experience
         </h2>
@@ -45,13 +45,13 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Sarbaş AŞ */}
+          {/* Sarbas AS */}
           <div className="group">
             <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
               Operations &amp; Customer Relations Specialist
             </h3>
             <p className="text-sm text-neutral-500 mb-3 font-mono tracking-wide">
-              Sarbaş AŞ
+              Sarbas AS
             </p>
             <p className="text-neutral-400 font-light leading-relaxed">
               Managed high-volume B2C customer service channels across municipal facilities, ensuring rapid bottleneck resolution and maintaining strict operational satisfaction standards.
@@ -59,6 +59,39 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Education & Certifications Section */}
+      <div className="max-w-3xl w-full text-left space-y-12">
+        <h2 className="text-2xl font-serif border-b border-neutral-800 pb-4 text-neutral-200">
+          Education &amp; Certifications
+        </h2>
+        
+        <div className="space-y-12">
+          {/* Sales Certification */}
+          <div className="group">
+            <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
+              Inbound Sales Certification
+            </h3>
+            <p className="text-neutral-400 font-light leading-relaxed mt-2">
+              Specialized in inbound sales methodologies, pipeline generation, and B2B business development frameworks.
+            </p>
+          </div>
+
+          {/* University Degree */}
+          <div className="group">
+            <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
+              Bachelor of Arts, English Language and Literature
+            </h3>
+            <p className="text-sm text-neutral-500 mb-3 font-mono tracking-wide">
+              Kocaeli University
+            </p>
+            <p className="text-neutral-400 font-light leading-relaxed">
+              Completed an integrated Pedagogical Formation Certification focusing on advanced instructional design and active group communication protocols.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </main>
   );
 }
