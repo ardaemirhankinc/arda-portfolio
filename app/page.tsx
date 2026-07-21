@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm font-mono text-neutral-500 mb-8">
             <a href="mailto:kincardaemirhan@outlook.com" className="hover:text-white transition-colors">kincardaemirhan@outlook.com</a>
             <span className="hidden md:inline">|</span>
-            <span>+90 538 563 61 07</span>
+            <a href="tel:+905385636107" className="hover:text-white transition-colors">+90 538 563 61 07</a>
             <span className="hidden md:inline">|</span>
             <a href="https://linkedin.com/in/arda-emirhan-kinc" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">linkedin.com/in/arda-emirhan-kinc</a>
           </div>
@@ -30,8 +30,8 @@ export default function Home() {
               <span className="text-lg">🗓</span> Book an Interview
             </a>
             <a 
-              href="/resume.pdf" 
-              download="Arda_Kinc_Resume.pdf"
+              href="/Arda_Emirhan_Kinc_SDR_CV.pdf" 
+              download="Arda_Emirhan_Kinc_SDR_CV.pdf"
               className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-neutral-200 transition-colors w-full sm:w-auto text-center"
             >
               Download CV
