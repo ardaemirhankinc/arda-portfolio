@@ -9,14 +9,14 @@ export default function Home() {
             Arda Emirhan Kinc
           </h1>
           <p className="text-xl md:text-2xl text-neutral-400 font-light">
-            Methodical SaaS professional leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.
+            Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.
           </p>
           
-          <div className="flex flex-wrap gap-4 text-sm font-mono text-neutral-500 pt-2 pb-4">
+          <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm font-mono text-neutral-500 mb-8">
             <a href="mailto:kincardaemirhan@outlook.com" className="hover:text-white transition-colors">kincardaemirhan@outlook.com</a>
-            <span>|</span>
-            <a href="tel:+905385636107" className="hover:text-white transition-colors">+90 538 563 61 07</a>
-            <span>|</span>
+            <span className="hidden md:inline">|</span>
+            <span>+90 538 563 61 07</span>
+            <span className="hidden md:inline">|</span>
             <a href="https://linkedin.com/in/arda-emirhan-kinc" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">linkedin.com/in/arda-emirhan-kinc</a>
           </div>
           
@@ -219,7 +219,7 @@ export default function Home() {
                 <span className="text-neutral-500 text-sm">↗</span>
               </a>
               <p className="text-sm text-neutral-500 mb-2 font-mono tracking-wide mt-1">
-                Kocaeli University (Graduating June 2026)
+                Kocaeli University
               </p>
               <p className="text-neutral-400 font-light leading-relaxed text-sm">
                 Graduated on-time with a focus on advanced group communication, instructional design, and persuasive presentation strategies—skills directly transferable to client enablement and objection handling.
@@ -266,8 +266,12 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="text-lg font-medium text-white mb-4">AI-Driven Operations</h3>
+            <h3 className="text-lg font-medium text-white mb-4">Technical Aptitude &amp; AI</h3>
             <ul className="space-y-3 text-neutral-400 font-light text-sm">
+              <li className="flex items-start gap-2">
+                <span className="text-neutral-700 mt-1">▹</span> 
+                <span>Engineered and deployed this responsive portfolio from scratch utilizing Next.js, React, and Tailwind CSS.</span>
+              </li>
               <li className="flex items-start gap-2">
                 <span className="text-neutral-700 mt-1">▹</span> 
                 <span>Utilizing premium AI models (Claude Pro, ChatGPT Plus, Gemini Pro) for lead enrichment and personalized outreach sequencing.</span>
@@ -294,7 +298,9 @@ export default function Home() {
           <p className="text-neutral-500 font-mono text-sm">Video Player Component Loading...</p>
         </div>
       </div>
-
+      <footer className="w-full text-center text-neutral-600 text-xs py-8 mt-16 border-t border-neutral-900">
+            © {new Date().getFullYear()} Arda Emirhan Kinc. All rights reserved.
+          </footer>
     </main>
   );
 }
