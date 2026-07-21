@@ -71,7 +71,18 @@ export default function Home() {
               <ul className="space-y-3 text-neutral-400 font-light text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
-                  <span>Spearheaded the end-to-end product lifecycle for the mobile application "Mummy Swing," driving the project from initial concept to final deployment on the Google Play Store.</span>
+                  <span>
+                    Spearheaded the end-to-end product lifecycle for the mobile application{" "}
+                    <a 
+                      href="https://play.google.com/store/apps/details?id=com.armedastudios.mummyswing" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-white border-b border-neutral-600 hover:border-white transition-colors"
+                    >
+                      &quot;Mummy Swing&quot;
+                    </a>
+                    , driving the project from initial concept to final deployment on the Google Play Store.
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
