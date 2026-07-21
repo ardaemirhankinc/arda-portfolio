@@ -299,29 +299,39 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Demo Card 1 */}
-          <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 space-y-3">
-            <h3 className="text-white font-medium text-sm">Outbound Cold Call: Pattern Interrupt &amp; PAS</h3>
-            <div className="w-full aspect-video bg-black rounded border border-neutral-800 overflow-hidden flex items-center justify-center">
-              {/* Replace the video tag source or embed URL with your actual recording file */}
-              <video controls className="w-full h-full object-cover">
+          <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 flex flex-col justify-between space-y-4">
+            <div>
+              <h3 className="text-white font-medium text-sm mb-1">Outbound Cold Call: Pattern Interrupt &amp; SPIN</h3>
+              <p className="text-xs text-neutral-500 font-mono mb-3">Focus: Tonal composure and extracting Problem/Implication.</p>
+            </div>
+            <div className="w-full aspect-video bg-black rounded border border-neutral-800 overflow-hidden flex items-center justify-center relative group">
+              <video 
+                controls 
+                className="w-full h-full object-cover"
+                poster="/demo-poster-1.jpg"
+              >
                 <source src="/demo-cold-call.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
-            <p className="text-xs text-neutral-500 font-mono">Focus: Tonal composure and breaking initial autopilot resistance.</p>
           </div>
 
           {/* Demo Card 2 */}
-          <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 space-y-3">
-            <h3 className="text-white font-medium text-sm">Objection Handling: Competitor Pivot</h3>
-            <div className="w-full aspect-video bg-black rounded border border-neutral-800 overflow-hidden flex items-center justify-center">
-              {/* Replace the video tag source or embed URL with your actual recording file */}
-              <video controls className="w-full h-full object-cover">
+          <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 flex flex-col justify-between space-y-4">
+            <div>
+              <h3 className="text-white font-medium text-sm mb-1">Objection Handling: ARP Framework</h3>
+              <p className="text-xs text-neutral-500 font-mono mb-3">Focus: Acknowledge, Respond, Pivot (ARP) to redirect skepticism.</p>
+            </div>
+            <div className="w-full aspect-video bg-black rounded border border-neutral-800 overflow-hidden flex items-center justify-center relative group">
+              <video 
+                controls 
+                className="w-full h-full object-cover"
+                poster="/demo-poster-2.jpg"
+              >
                 <source src="/demo-objection.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
-            <p className="text-xs text-neutral-500 font-mono">Focus: De-escalation and redirecting stakeholder skepticism.</p>
           </div>
         </div>
       </div>
