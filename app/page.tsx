@@ -22,9 +22,17 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a 
+              href="YOUR_CALENDLY_LINK_HERE" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-neutral-200 transition-colors w-full sm:w-auto text-center"
+            >
+              Book an Interview
+            </a>
+            <a 
               href="/resume.pdf" 
               download="Arda_Kinc_Resume.pdf"
-              className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-neutral-200 transition-colors w-full sm:w-auto text-center"
+              className="px-6 py-3 bg-neutral-900 text-white font-medium rounded-full border border-neutral-700 hover:border-neutral-500 transition-colors w-full sm:w-auto text-center"
             >
               Download CV
             </a>
