@@ -39,8 +39,8 @@ export default function Home() {
         <div className="space-y-12">
           {/* Armeda Studios */}
           <div className="group flex items-start gap-5">
-            <div className="w-16 h-16 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center flex-shrink-0 p-1">
-              <img src="/armeda.png" alt="Armeda Studios" className="w-full h-full object-contain opacity-90" />
+            <div className="relative w-16 h-16 min-w-[64px] min-h-[64px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2">
+              <img src="/armeda.png" alt="Armeda Studios" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
             <div>
               <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
@@ -57,8 +57,8 @@ export default function Home() {
 
           {/* English Time */}
           <div className="group flex items-start gap-5">
-            <div className="w-16 h-16 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center flex-shrink-0 p-1">
-              <img src="/englishtime.png" alt="English Time" className="w-full h-full object-contain opacity-90" />
+            <div className="relative w-16 h-16 min-w-[64px] min-h-[64px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2">
+              <img src="/englishtime.png" alt="English Time" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
             <div>
               <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
@@ -75,8 +75,8 @@ export default function Home() {
 
           {/* Sarbas AS */}
           <div className="group flex items-start gap-5">
-            <div className="w-16 h-16 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center flex-shrink-0 p-1">
-              <img src="/sarbas.png" alt="Sarbas AS" className="w-full h-full object-contain opacity-90" />
+            <div className="relative w-16 h-16 min-w-[64px] min-h-[64px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2">
+              <img src="/sarbas.png" alt="Sarbas AS" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
             <div>
               <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
@@ -103,8 +103,8 @@ export default function Home() {
           
           {/* Salesforce Badge */}
           <div className="group flex items-start gap-5">
-            <div className="w-16 h-16 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center flex-shrink-0 p-1">
-              <img src="/salesforce.png" alt="Salesforce" className="w-full h-full object-contain opacity-90" />
+            <div className="relative w-16 h-16 min-w-[64px] min-h-[64px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2">
+              <img src="/salesforce.png" alt="Salesforce" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
             <div>
               <a href="https://www.salesforce.com/trailblazer/n5ft2fa7lkrc4rondn" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
@@ -117,8 +117,8 @@ export default function Home() {
 
           {/* HubSpot Sales Hub */}
           <div className="group flex items-start gap-5">
-            <div className="w-16 h-16 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center flex-shrink-0 p-1">
-              <img src="/hubspot.png" alt="HubSpot" className="w-full h-full object-contain opacity-90" />
+            <div className="relative w-16 h-16 min-w-[64px] min-h-[64px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2">
+              <img src="/hubspot.png" alt="HubSpot" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
             <div>
               <a href="https://app-eu1.hubspot.com/academy/achievements/c6k0xx0p/en/1/arda-emirhan-kinc/hubspot-sales-hub-software" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
@@ -131,8 +131,8 @@ export default function Home() {
 
           {/* HubSpot Inbound */}
           <div className="group flex items-start gap-5">
-            <div className="w-16 h-16 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center flex-shrink-0 p-1">
-              <img src="/hubspot.png" alt="HubSpot" className="w-full h-full object-contain opacity-90" />
+            <div className="relative w-16 h-16 min-w-[64px] min-h-[64px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2">
+              <img src="/hubspot.png" alt="HubSpot" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
             <div>
               <a href="https://app-eu1.hubspot.com/academy/achievements/vfwbx1w3/en/1/arda-emirhan-kinc/inbound-sales" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
@@ -145,11 +145,11 @@ export default function Home() {
 
           {/* University Degree */}
           <div className="group flex items-start gap-5 pt-6 border-t border-neutral-900 mt-6">
-            <div className="w-16 h-16 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center flex-shrink-0 p-1">
-              <img src="/kocaeli.png" alt="Kocaeli University" className="w-full h-full object-contain opacity-90" />
+            <div className="relative w-16 h-16 min-w-[64px] min-h-[64px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2">
+              <img src="/kocaeli.png" alt="Kocaeli University" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
             <div>
-              <a href="https://bde.kocaeli.edu.tr/" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
+              <a href="https://bde.kocaeli.edu.tr/en" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
                 Bachelor of Arts, English Language and Literature
                 <span className="text-neutral-500 text-sm">↗</span>
               </a>
