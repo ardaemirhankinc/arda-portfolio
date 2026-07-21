@@ -32,7 +32,6 @@ export const metadata: Metadata = {
     description: 'Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.',
     images: ['/og-image.jpg'],
   },
-}
   robots: {
     index: true,
     follow: true,
