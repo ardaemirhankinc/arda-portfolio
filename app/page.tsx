@@ -66,7 +66,7 @@ export default function Home() {
                 <span className="text-xs text-neutral-500 font-mono whitespace-nowrap">Jan 2026 - Present</span>
               </div>
               <p className="text-sm text-neutral-500 mb-4 font-mono tracking-wide">
-                Armeda Studios | Remote
+                Armeda Studios
               </p>
               <ul className="space-y-3 text-neutral-400 font-light text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
