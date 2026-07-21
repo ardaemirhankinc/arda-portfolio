@@ -38,42 +38,57 @@ export default function Home() {
         
         <div className="space-y-12">
           {/* Armeda Studios */}
-          <div className="group">
-            <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
-              Founder &amp; Product Manager
-            </h3>
-            <p className="text-sm text-neutral-500 mb-3 font-mono tracking-wide">
-              Armeda Studios
-            </p>
-            <p className="text-neutral-400 font-light leading-relaxed">
-              Directed end-to-end mobile software go-to-market lifecycles and application distribution. Managed a global localization architecture across 14 languages and successfully integrated external revenue reward blocks.
-            </p>
+          <div className="group flex items-start gap-4">
+            <div className="w-12 h-12 bg-neutral-900 border border-neutral-800 rounded flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/armeda.png" alt="Armeda Studios" className="w-full h-full object-cover opacity-80" />
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
+                Founder &amp; Product Manager
+              </h3>
+              <p className="text-sm text-neutral-500 mb-2 font-mono tracking-wide mt-1">
+                Armeda Studios
+              </p>
+              <p className="text-neutral-400 font-light leading-relaxed">
+                Directed end-to-end mobile software go-to-market lifecycles and application distribution. Managed a global localization architecture across 14 languages and successfully integrated external revenue reward blocks.
+              </p>
+            </div>
           </div>
 
           {/* English Time */}
-          <div className="group">
-            <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
-              Communication &amp; Client Enablement Specialist
-            </h3>
-            <p className="text-sm text-neutral-500 mb-3 font-mono tracking-wide">
-              English Time
-            </p>
-            <p className="text-neutral-400 font-light leading-relaxed">
-              Facilitated comprehensive enablement and instruction for varied client tiers. Leveraged active listening strategies, group communication frameworks, and structured instructional design to drive client success.
-            </p>
+          <div className="group flex items-start gap-4">
+            <div className="w-12 h-12 bg-neutral-900 border border-neutral-800 rounded flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/englishtime.png" alt="English Time" className="w-full h-full object-cover opacity-80" />
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
+                Communication &amp; Client Enablement Specialist
+              </h3>
+              <p className="text-sm text-neutral-500 mb-2 font-mono tracking-wide mt-1">
+                English Time
+              </p>
+              <p className="text-neutral-400 font-light leading-relaxed">
+                Facilitated comprehensive enablement and instruction for varied client tiers. Leveraged active listening strategies, group communication frameworks, and structured instructional design to drive client success.
+              </p>
+            </div>
           </div>
 
           {/* Sarbas AS */}
-          <div className="group">
-            <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
-              Operations &amp; Customer Relations Specialist
-            </h3>
-            <p className="text-sm text-neutral-500 mb-3 font-mono tracking-wide">
-              Sarbas AS
-            </p>
-            <p className="text-neutral-400 font-light leading-relaxed">
-              Managed high-volume B2C customer service channels across municipal facilities, ensuring rapid bottleneck resolution and maintaining strict operational satisfaction standards.
-            </p>
+          <div className="group flex items-start gap-4">
+            <div className="w-12 h-12 bg-neutral-900 border border-neutral-800 rounded flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/sarbas.png" alt="Sarbas AS" className="w-full h-full object-cover opacity-80" />
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
+                Operations &amp; Customer Relations Specialist
+              </h3>
+              <p className="text-sm text-neutral-500 mb-2 font-mono tracking-wide mt-1">
+                Sarbas AS
+              </p>
+              <p className="text-neutral-400 font-light leading-relaxed">
+                Managed high-volume B2C customer service channels across municipal facilities, ensuring rapid bottleneck resolution and maintaining strict operational satisfaction standards.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -130,6 +145,9 @@ export default function Home() {
 
           {/* University Degree */}
           <div className="group flex items-start gap-4 pt-6 border-t border-neutral-900 mt-6">
+            <div className="w-12 h-12 bg-neutral-900 border border-neutral-800 rounded flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/kocaeli.png" alt="Kocaeli University" className="w-full h-full object-cover opacity-80" />
+            </div>
             <div>
               <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
                 Bachelor of Arts, English Language and Literature
