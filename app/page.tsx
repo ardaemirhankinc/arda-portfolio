@@ -12,7 +12,7 @@ export default function Home() {
             Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.
           </p>
           
-          <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-mono text-neutral-500 mb-8">
             <a href="mailto:kincardaemirhan@outlook.com" className="hover:text-white transition-colors">kincardaemirhan@outlook.com</a>
             <span className="hidden md:inline">|</span>
             <a href="tel:+905385636107" className="hover:text-white transition-colors">+90 538 563 61 07</a>
@@ -25,20 +25,20 @@ export default function Home() {
               href="https://calendly.com/kincardaemirhan/30min" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors w-full sm:w-auto text-center flex items-center justify-center gap-2"
+              className="px-6 py-3 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors w-full sm:w-auto text-center flex items-center justify-center gap-2 whitespace-nowrap"
             >
               <span className="text-lg">🗓</span> Book an Interview
             </a>
             <a 
               href="/Arda_Emirhan_Kinc_SDR_CV.pdf" 
               download="Arda_Emirhan_Kinc_SDR_CV.pdf"
-              className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-neutral-200 transition-colors w-full sm:w-auto text-center"
+              className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-neutral-200 transition-colors w-full sm:w-auto text-center whitespace-nowrap"
             >
               Download CV
             </a>
             <a 
               href="#demos"
-              className="px-6 py-3 bg-neutral-900 text-white font-medium rounded-full border border-neutral-700 hover:border-neutral-500 transition-colors w-full sm:w-auto text-center"
+              className="px-6 py-3 bg-neutral-900 text-white font-medium rounded-full border border-neutral-700 hover:border-neutral-500 transition-colors w-full sm:w-auto text-center whitespace-nowrap"
             >
               Watch Demos
             </a>
