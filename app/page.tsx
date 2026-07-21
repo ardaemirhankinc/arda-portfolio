@@ -58,12 +58,12 @@ export default function Home() {
             <div className="relative w-20 h-20 min-w-[80px] min-h-[80px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2.5 mt-1">
               <img src="/armeda.png" alt="Armeda Studios" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
-            <div>
-              <div className="flex flex-col md:flex-row md:items-center justify-between mb-1">
+            <div className="w-full">
+              <div className="flex items-start md:items-center justify-between gap-4 mb-1">
                 <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
                   Founder &amp; Independent Developer
                 </h3>
-                <span className="text-xs text-neutral-500 font-mono">Jan 2026 - Present</span>
+                <span className="text-xs text-neutral-500 font-mono whitespace-nowrap">Jan 2026 - Present</span>
               </div>
               <p className="text-sm text-neutral-500 mb-4 font-mono tracking-wide">
                 Armeda Studios | Remote
@@ -101,12 +101,12 @@ export default function Home() {
             <div className="relative w-20 h-20 min-w-[80px] min-h-[80px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2.5 mt-1">
               <img src="/englishtime.png" alt="English Time" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
-            <div>
-              <div className="flex flex-col md:flex-row md:items-center justify-between mb-1">
+            <div className="w-full">
+              <div className="flex items-start md:items-center justify-between gap-4 mb-1">
                 <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
                   Communication &amp; Client Enablement Specialist
                 </h3>
-                <span className="text-xs text-neutral-500 font-mono">Jun 2024 - Apr 2026</span>
+                <span className="text-xs text-neutral-500 font-mono whitespace-nowrap">Jun 2024 - Apr 2026</span>
               </div>
               <p className="text-sm text-neutral-500 mb-4 font-mono tracking-wide">
                 English Time
@@ -133,12 +133,12 @@ export default function Home() {
             <div className="relative w-20 h-20 min-w-[80px] min-h-[80px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2.5 mt-1">
               <img src="/sarbas.png" alt="Sarbas AS" className="max-w-full max-h-full object-contain opacity-90" />
             </div>
-            <div>
-              <div className="flex flex-col md:flex-row md:items-center justify-between mb-1">
+            <div className="w-full">
+              <div className="flex items-start md:items-center justify-between gap-4 mb-1">
                 <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
                   Operations &amp; Customer Relations Specialist
                 </h3>
-                <span className="text-xs text-neutral-500 font-mono">Aug 2022 - Apr 2024</span>
+                <span className="text-xs text-neutral-500 font-mono whitespace-nowrap">Aug 2022 - Apr 2024</span>
               </div>
               <p className="text-sm text-neutral-500 mb-4 font-mono tracking-wide">
                 Sarbas AS
@@ -165,7 +165,6 @@ export default function Home() {
         </h2>
         
         <div className="space-y-8">
-          
           {/* Salesforce Badge */}
           <div className="group flex items-start gap-6">
             <div className="relative w-20 h-20 min-w-[80px] min-h-[80px] flex-none bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center p-2.5">
@@ -289,18 +288,47 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Demo Video Section (Placeholder) */}
-      <div id="demos" className="max-w-4xl w-full text-left space-y-12 mb-24">
+      {/* Sales Execution & Demos Section */}
+      <div id="demos" className="max-w-4xl w-full text-left space-y-8 mb-24">
         <h2 className="text-2xl font-serif border-b border-neutral-800 pb-4 text-neutral-200">
           Sales Execution &amp; Demos
         </h2>
-        <div className="w-full h-64 bg-neutral-900 border border-neutral-800 rounded-lg flex items-center justify-center">
-          <p className="text-neutral-500 font-mono text-sm">Video Player Component Loading...</p>
+        <p className="text-neutral-400 text-sm font-light">
+          Listen to sample mock cold calls and discovery sequences demonstrating tonal control, pattern interrupts, and live objection handling.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Demo Card 1 */}
+          <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 space-y-3">
+            <h3 className="text-white font-medium text-sm">Outbound Cold Call: Pattern Interrupt &amp; PAS</h3>
+            <div className="w-full aspect-video bg-black rounded border border-neutral-800 overflow-hidden flex items-center justify-center">
+              {/* Replace the video tag source or embed URL with your actual recording file */}
+              <video controls className="w-full h-full object-cover">
+                <source src="/demo-cold-call.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="text-xs text-neutral-500 font-mono">Focus: Tonal composure and breaking initial autopilot resistance.</p>
+          </div>
+
+          {/* Demo Card 2 */}
+          <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 space-y-3">
+            <h3 className="text-white font-medium text-sm">Objection Handling: Competitor Pivot</h3>
+            <div className="w-full aspect-video bg-black rounded border border-neutral-800 overflow-hidden flex items-center justify-center">
+              {/* Replace the video tag source or embed URL with your actual recording file */}
+              <video controls className="w-full h-full object-cover">
+                <source src="/demo-objection.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="text-xs text-neutral-500 font-mono">Focus: De-escalation and redirecting stakeholder skepticism.</p>
+          </div>
         </div>
       </div>
+
       <footer className="w-full text-center text-neutral-600 text-xs py-8 mt-16 border-t border-neutral-900">
-            © {new Date().getFullYear()} Arda Emirhan Kinc. All rights reserved.
-          </footer>
+        © {new Date().getFullYear()} Arda Emirhan Kinc. All rights reserved.
+      </footer>
     </main>
   );
 }
