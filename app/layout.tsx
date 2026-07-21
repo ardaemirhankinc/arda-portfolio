@@ -7,16 +7,13 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import { baseUrl } from './sitemap'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
-  title: {
-    default: 'Arda Emirhan Kinc | Sales Development Representative',
-    template: '%s | Arda Emirhan Kinc',
-  },
-  description: 'High-energy SaaS professional transitioning into a global Sales Development Representative (SDR) role.',
+  metadataBase: new URL('https://www.ardakinc.com'), // This forces absolute URLs for WhatsApp
+  title: 'Arda Emirhan Kinc | Sales Development Representative',
+  description: 'Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.',
   openGraph: {
-    title: 'Arda Emirhan Kinc | Sales Development Representative',
-    description: 'High-energy SaaS professional transitioning into a global Sales Development Representative (SDR) role.',
-    url: baseUrl,
+    title: 'Arda Emirhan Kinc | SDR Portfolio',
+    description: 'Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.',
+    url: 'https://www.ardakinc.com',
     siteName: 'Arda Emirhan Kinc Portfolio',
     images: [
       {
@@ -31,10 +28,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Arda Emirhan Kinc | Sales Development Representative',
-    description: 'High-energy SaaS professional transitioning into a global Sales Development Representative (SDR) role.',
+    title: 'Arda Emirhan Kinc | SDR Portfolio',
+    description: 'Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.',
     images: ['/og-image.jpg'],
   },
+}
   robots: {
     index: true,
     follow: true,
