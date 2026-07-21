@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col items-center px-6 py-24">
+    <main className="min-h-screen bg-black text-white flex flex-col items-center px-6 pt-10 pb-2">
       
       {/* Hero Section */}
       <div className="max-w-4xl w-full flex flex-col items-start justify-center gap-6 mb-24">
