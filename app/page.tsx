@@ -9,7 +9,7 @@ export default function Home() {
             Arda Emirhan Kinc
           </h1>
           <p className="text-xl md:text-2xl text-neutral-400 font-light">
-            High-energy SaaS professional transitioning into a global Sales Development Representative (SDR) role.
+            Methodical SaaS professional leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.
           </p>
           
           <div className="flex flex-wrap gap-4 text-sm font-mono text-neutral-500 pt-2 pb-4">
@@ -243,6 +243,16 @@ export default function Home() {
               <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Outbound Prospecting &amp; Pipeline Generation</li>
               <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Lead Qualification &amp; Objection Handling</li>
               <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> B2B/B2C Communication &amp; Churn Reduction</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-medium text-white mb-4">Methodologies &amp; Frameworks</h3>
+            <ul className="space-y-3 text-neutral-400 font-light text-sm">
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> GPCT &amp; SPICED</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> SPIN &amp; SNAP</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> PAS (Problem, Agitate, Solution)</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> MEDDIC &amp; BANT Qualification</li>
             </ul>
           </div>
           
