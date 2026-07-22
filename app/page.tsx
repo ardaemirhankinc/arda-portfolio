@@ -36,12 +36,6 @@ export default function Home() {
             >
               Download CV
             </a>
-            <a 
-              href="#demos"
-              className="px-6 py-3 bg-neutral-900 text-white font-medium rounded-full border border-neutral-700 hover:border-neutral-500 transition-colors w-full sm:w-auto text-center whitespace-nowrap"
-            >
-              Watch Demos
-            </a>
           </div>
         </div>
       </div>
@@ -284,54 +278,6 @@ export default function Home() {
               <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> English (Advanced / Bilingual Proficiency)</li>
               <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Turkish (Native)</li>
             </ul>
-          </div>
-        </div>
-      </div>
-
-      {/* Sales Execution & Demos Section */}
-      <div id="demos" className="max-w-4xl w-full text-left space-y-8 mb-24">
-        <h2 className="text-2xl font-serif border-b border-neutral-800 pb-4 text-neutral-200">
-          Sales Execution &amp; Demos
-        </h2>
-        <p className="text-neutral-400 text-sm font-light">
-          Listen to sample mock cold calls and discovery sequences demonstrating tonal control, pattern interrupts, and live objection handling.
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Demo Card 1 */}
-          <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 flex flex-col justify-between space-y-4">
-            <div>
-              <h3 className="text-white font-medium text-sm mb-1">Outbound Cold Call: Pattern Interrupt &amp; SPIN</h3>
-              <p className="text-xs text-neutral-500 font-mono mb-3">Focus: Tonal composure and extracting Problem/Implication.</p>
-            </div>
-            <div className="w-full aspect-video bg-black rounded border border-neutral-800 overflow-hidden flex items-center justify-center relative group">
-              <video 
-                controls 
-                className="w-full h-full object-cover"
-                poster="/demo-poster-1.jpg"
-              >
-                <source src="/demo-cold-call.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-
-          {/* Demo Card 2 */}
-          <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 flex flex-col justify-between space-y-4">
-            <div>
-              <h3 className="text-white font-medium text-sm mb-1">Objection Handling: ARP Framework</h3>
-              <p className="text-xs text-neutral-500 font-mono mb-3">Focus: Acknowledge, Respond, Pivot (ARP) to redirect skepticism.</p>
-            </div>
-            <div className="w-full aspect-video bg-black rounded border border-neutral-800 overflow-hidden flex items-center justify-center relative group">
-              <video 
-                controls 
-                className="w-full h-full object-cover"
-                poster="/demo-poster-2.jpg"
-              >
-                <source src="/demo-objection.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
           </div>
         </div>
       </div>
