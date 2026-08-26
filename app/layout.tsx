@@ -8,19 +8,21 @@ import { baseUrl } from './sitemap'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.ardakinc.com'), // This forces absolute URLs for WhatsApp
-  title: 'Arda Emirhan Kinc | Sales Development Representative',
-  description: 'Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.',
+  title: 'Arda Emirhan Kınç | Operations & Corporate Communications Specialist',
+  description:
+    'Bilingual (English & Turkish) Operations & Communications Specialist bridging stakeholder communication, process coordination, and digital execution.',
   openGraph: {
-    title: 'Arda Emirhan Kinc | SDR Portfolio',
-    description: 'Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.',
+    title: 'Arda Emirhan Kınç | Operations & Corporate Communications',
+    description:
+      'Bilingual (English & Turkish) Operations & Communications Specialist bridging stakeholder communication, process coordination, and digital execution.',
     url: 'https://www.ardakinc.com',
-    siteName: 'Arda Emirhan Kinc Portfolio',
+    siteName: 'Arda Emirhan Kınç Portfolio',
     images: [
       {
-        url: '/og-image.jpg', 
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Arda Emirhan Kinc - SDR Portfolio',
+        alt: 'Arda Emirhan Kınç - Operations & Communications Portfolio',
       },
     ],
     locale: 'en_US',
@@ -28,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Arda Emirhan Kinc | SDR Portfolio',
-    description: 'Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.',
+    title: 'Arda Emirhan Kınç | Operations & Corporate Communications',
+    description:
+      'Bilingual (English & Turkish) Operations & Communications Specialist bridging stakeholder communication, process coordination, and digital execution.',
     images: ['/og-image.jpg'],
   },
   robots: {

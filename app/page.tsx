@@ -6,10 +6,10 @@ export default function Home() {
       <div className="max-w-4xl w-full flex flex-col items-start justify-center gap-6 mb-24">
         <div className="space-y-6 text-left">
           <h1 className="text-5xl md:text-7xl font-serif tracking-tight">
-            Arda Emirhan Kinc
+            Arda Emirhan Kınç
           </h1>
           <p className="text-xl md:text-2xl text-neutral-400 font-light">
-            Methodical Sales Development Representative (SDR) leveraging an authoritative vocal presence and structured communication to drive B2B pipeline.
+            Adaptable, bilingual (English &amp; Turkish) Operations &amp; Communications Specialist bridging stakeholder communication, process coordination, and digital execution.
           </p>
           
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-mono text-neutral-500 mb-8">
@@ -30,8 +30,8 @@ export default function Home() {
               <span className="text-lg">🗓</span> Book an Interview
             </a>
             <a 
-              href="/Arda_Emirhan_Kinc_SDR_CV.pdf" 
-              download="Arda_Emirhan_Kinc_SDR_CV.pdf"
+              href="/Arda_Emirhan_Kinc_CV.pdf" 
+              download="Arda_Emirhan_Kinc_CV.pdf"
               className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-neutral-200 transition-colors w-full sm:w-auto text-center whitespace-nowrap"
             >
               Download CV
@@ -55,7 +55,7 @@ export default function Home() {
             <div className="w-full">
               <div className="flex items-start md:items-center justify-between gap-4 mb-1">
                 <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
-                  Founder &amp; Independent Developer
+                  Project Lead &amp; Independent Developer
                 </h3>
                 <span className="text-xs text-neutral-500 font-mono whitespace-nowrap">Jan 2026 - Present</span>
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
                   <span>
-                    Spearheaded the end-to-end product lifecycle for the mobile application{" "}
+                    Spearheaded the end-to-end product and operational lifecycle for the mobile application{" "}
                     <a 
                       href="https://play.google.com/store/apps/details?id=com.armedastudios.mummyswing" 
                       target="_blank" 
@@ -75,16 +75,16 @@ export default function Home() {
                     >
                       &quot;Mummy Swing&quot;
                     </a>
-                    , driving the project from initial concept to final deployment on the Google Play Store.
+                    , driving the project from initial concept to live release on the Google Play Store.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
-                  <span>Managed strict platform compliance, technical quality assurance, and Google Play Console integrations to successfully ship a functional software product.</span>
+                  <span>Managed strict platform compliance, quality assurance testing, localization pipelines, and release integrations via Google Play Console.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
-                  <span>Architected a zero-budget Go-To-Market (GTM) strategy targeting a global audience, gaining hands-on experience with digital localization and App Store Optimization (ASO) mechanics.</span>
+                  <span>Executed a zero-budget Go-To-Market (GTM) strategy targeting a global audience, demonstrating high autonomy, technical problem-solving, and cross-functional execution.</span>
                 </li>
               </ul>
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
             <div className="w-full">
               <div className="flex items-start md:items-center justify-between gap-4 mb-1">
                 <h3 className="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">
-                  Communication &amp; Client Enablement Specialist
+                  Communication &amp; Training Specialist
                 </h3>
                 <span className="text-xs text-neutral-500 font-mono whitespace-nowrap">Jun 2024 - Apr 2026</span>
               </div>
@@ -108,15 +108,15 @@ export default function Home() {
               <ul className="space-y-3 text-neutral-400 font-light text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
-                  <span>Facilitated high-impact presentations and daily educational sessions for diverse groups of 30+ clients, mastering the ability to simplify complex concepts and maintain continuous audience engagement.</span>
+                  <span>Facilitated structured instructional sessions and presentations for diverse cohorts of 30+ adult learners, translating complex linguistic concepts into clear, engaging, and actionable training modules.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
-                  <span>Engineered targeted objection-handling strategies during critical enrollment phases, effectively reducing churn and accelerating decision-making cycles for prospective clients.</span>
+                  <span>Facilitated client onboarding, monitored learner progression, and de-escalated stakeholder concerns, substantially improving participant retention and course completion rates.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
-                  <span>Analyzed performance metrics and applied structured delivery methods to optimize client outcomes, consistently meeting institutional satisfaction and success targets.</span>
+                  <span>Analyzed performance metrics and adapted delivery methodologies to meet organizational service and learner satisfaction benchmarks.</span>
                 </li>
               </ul>
             </div>
@@ -140,11 +140,15 @@ export default function Home() {
               <ul className="space-y-3 text-neutral-400 font-light text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
-                  <span>Managed high-volume B2C transactions, efficiently processing operations for 100+ daily customers across municipal facilities while maintaining strict service standards in high-stress environments.</span>
+                  <span>Supervised daily operational workflows and public-facing transactions for 100+ daily stakeholders across municipal facilities under strict service-level agreements.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-neutral-700 mt-1">▹</span> 
-                  <span>De-escalated real-time customer conflicts and resolved complex operational bottlenecks, optimizing communication channels to boost overall efficiency and client satisfaction.</span>
+                  <span>Resolved real-time operational bottlenecks, managed high-stress customer interactions with tact and diplomacy, and maintained comprehensive daily transaction logs.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-neutral-700 mt-1">▹</span> 
+                  <span>Optimized frontline communication channels between customers and administrative personnel, driving higher service efficiency and stakeholder satisfaction.</span>
                 </li>
               </ul>
             </div>
@@ -194,7 +198,7 @@ export default function Home() {
             </div>
             <div>
               <a href="https://app-eu1.hubspot.com/academy/achievements/vfwbx1w3/en/1/arda-emirhan-kinc/inbound-sales" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-white hover:text-neutral-300 transition-colors flex items-center gap-2">
-                Inbound Sales Certification
+                Inbound Certification
                 <span className="text-neutral-500 text-sm">↗</span>
               </a>
               <p className="text-sm text-neutral-500 font-mono tracking-wide mt-1">HubSpot Academy</p>
@@ -215,7 +219,7 @@ export default function Home() {
                 Kocaeli University
               </p>
               <p className="text-neutral-400 font-light leading-relaxed text-sm">
-                Graduated on-time with a focus on advanced group communication, instructional design, and persuasive presentation strategies—skills directly transferable to client enablement and objection handling.
+                Graduated on-time with a focus on advanced group communication, instructional design, cross-cultural analysis, and persuasive presentation strategies.
               </p>
             </div>
           </div>
@@ -231,30 +235,29 @@ export default function Home() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-lg font-medium text-white mb-4">Sales &amp; Operations</h3>
+            <h3 className="text-lg font-medium text-white mb-4">Operations &amp; Process Management</h3>
             <ul className="space-y-3 text-neutral-400 font-light text-sm">
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Outbound Prospecting &amp; Pipeline Generation</li>
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Lead Qualification &amp; Objection Handling</li>
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> B2B/B2C Communication &amp; Churn Reduction</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Workflow Coordination &amp; Tracking</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Operational Bottleneck Resolution</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Documentation &amp; Quality Compliance</li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-medium text-white mb-4">Methodologies &amp; Frameworks</h3>
+            <h3 className="text-lg font-medium text-white mb-4">Communication &amp; Enablement</h3>
             <ul className="space-y-3 text-neutral-400 font-light text-sm">
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> GPCT &amp; SPICED</li>
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> SPIN &amp; SNAP</li>
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> PAS (Problem, Agitate, Solution)</li>
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> MEDDIC &amp; BANT Qualification</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Cross-Functional Stakeholder Alignment</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Public Speaking, Coaching &amp; Training</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Conflict De-escalation &amp; Client Relations</li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-medium text-white mb-4">CRM &amp; Prospecting Stack</h3>
+            <h3 className="text-lg font-medium text-white mb-4">Systems &amp; Digital Tools</h3>
             <ul className="space-y-3 text-neutral-400 font-light text-sm">
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Salesforce Lightning &amp; HubSpot Sales Hub</li>
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> LinkedIn Sales Navigator</li>
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Apollo.io</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Salesforce Lightning &amp; HubSpot</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Google Workspace &amp; MS Office (Excel/Word/PPT)</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Notion &amp; Task Management Systems</li>
             </ul>
           </div>
 
@@ -267,7 +270,7 @@ export default function Home() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-neutral-700 mt-1">▹</span> 
-                <span>Utilizing premium AI models (Claude Pro, ChatGPT Plus, Gemini Pro) for lead enrichment and personalized outreach sequencing.</span>
+                <span>Utilizing premium AI models (Claude, ChatGPT, Gemini) for workflow acceleration, research, and data processing.</span>
               </li>
             </ul>
           </div>
@@ -275,7 +278,7 @@ export default function Home() {
           <div>
             <h3 className="text-lg font-medium text-white mb-4">Languages</h3>
             <ul className="space-y-3 text-neutral-400 font-light text-sm">
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> English (Advanced / Bilingual Proficiency)</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> English (Advanced / Bilingual Academic Proficiency — C2 Level)</li>
               <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Turkish (Native)</li>
             </ul>
           </div>
@@ -283,7 +286,7 @@ export default function Home() {
       </div>
 
       <footer className="w-full text-center text-neutral-600 text-xs py-8 mt-16 border-t border-neutral-900">
-        © {new Date().getFullYear()} Arda Emirhan Kinc. All rights reserved.
+        © {new Date().getFullYear()} Arda Emirhan Kınç. All rights reserved.
       </footer>
     </main>
   );
