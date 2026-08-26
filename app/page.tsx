@@ -6,7 +6,7 @@ export default function Home() {
       <div className="max-w-4xl w-full flex flex-col items-start justify-center gap-6 mb-24">
         <div className="space-y-6 text-left">
           <h1 className="text-5xl md:text-7xl font-serif tracking-tight">
-            Arda Emirhan Kınç
+            Arda Emirhan Kinc
           </h1>
           <p className="text-xl md:text-2xl text-neutral-400 font-light">
             Adaptable, bilingual (English &amp; Turkish) Operations &amp; Communications Specialist bridging stakeholder communication, process coordination, and digital execution.
@@ -286,7 +286,7 @@ export default function Home() {
       </div>
 
       <footer className="w-full text-center text-neutral-600 text-xs py-8 mt-16 border-t border-neutral-900">
-        © {new Date().getFullYear()} Arda Emirhan Kınç. All rights reserved.
+        © {new Date().getFullYear()} Arda Emirhan Kinc. All rights reserved.
       </footer>
     </main>
   );
