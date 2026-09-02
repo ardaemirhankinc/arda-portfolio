@@ -22,7 +22,7 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a 
-              href="https://calendly.com/kincardaemirhan/30min" 
+              href="https://calendly.com/kincardaemirhan/discovery-call" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-3 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors w-full sm:w-auto text-center flex items-center justify-center gap-2 whitespace-nowrap"
@@ -278,7 +278,7 @@ export default function Home() {
           <div>
             <h3 className="text-lg font-medium text-white mb-4">Languages</h3>
             <ul className="space-y-3 text-neutral-400 font-light text-sm">
-              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> English (Advanced / Bilingual Academic Proficiency — C2 Level)</li>
+              <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> English (Academic Fluency)</li>
               <li className="flex items-center gap-2"><span className="text-neutral-700">▹</span> Turkish (Native)</li>
             </ul>
           </div>
