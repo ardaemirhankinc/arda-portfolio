@@ -13,7 +13,7 @@ export default function Home() {
           </p>
           
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-mono text-neutral-500 mb-8">
-            <a href="mailto:kincardaemirhan@outlook.com" className="hover:text-white transition-colors">kincardaemirhan@outlook.com</a>
+            <a href="mailto:kincardaemirhan@gmail.com" className="hover:text-white transition-colors">kincardaemirhan@gmail.com</a>
             <span className="hidden md:inline">|</span>
             <a href="tel:+905385636107" className="hover:text-white transition-colors">+90 538 563 61 07</a>
             <span className="hidden md:inline">|</span>
