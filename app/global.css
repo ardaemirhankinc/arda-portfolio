@@ -30,7 +30,14 @@
 }
 
 html {
-  min-width: 360px;
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 .prose .anchor {
